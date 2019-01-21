@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jasmine",
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"
@@ -23,6 +24,8 @@
     "eslint": "^4.18.2",
     "eslint-loader": "^2.0.0",
     "html-webpack-plugin": "^3.0.6",
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^2.99.0",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack-cli": "^2.0.9",
