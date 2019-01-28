@@ -13,6 +13,6 @@ _Backend testing specs only so far: set up functions to take a user input for th
 * Type "npm run test"
 * Wait for broser to open then click debug to see all tests passing.
 
-## Known Bugs
+## WIP
 
-* None so far
+* Add basic UI
